@@ -1,8 +1,5 @@
-﻿using Audit.EntityFramework;
-
-namespace ShBarcelona.DAL.Entities
+﻿namespace ShBarcelona.DAL.Entities
 {
-    [AuditIgnore]
     public class AreaEntity
     {
         public int Id { get; set; }

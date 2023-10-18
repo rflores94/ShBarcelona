@@ -1,12 +1,14 @@
 using AutoMapper;
+using ShBarcelona.DAL.Entities;
+using ShBarcelona.Services.Area;
 
-namespace TTecno.TalentHR.Services
+namespace ShBarcelona.Services
 {
     public class AutoMapperConfiguration : Profile
     {
         public AutoMapperConfiguration()
         {
-            //CreateMap<EmployeeTrainingPathEntity, EmployeeTrainingPathDto>().ReverseMap();
+            CreateMap<AreaEntity, AreaDto>().ReverseMap();
         }
     }
 }

@@ -8,7 +8,7 @@ namespace ShBarcelona.DAL
     {
         public static void AddDAL(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<RecruitmentContext>(options =>
+            services.AddDbContext<ShBarcelonaContext>(options =>
             options.UseMySql(configuration.GetConnectionString("ShBarcelona"),
                              ServerVersion.AutoDetect(configuration.GetConnectionString("ShBarcelona")),
                              x => x.MigrationsAssembly("ShBarcelona.DAL")));
