@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. API", "1. API", "{127BB8CB-F7A3-42C1-9AE9-E59760B20F5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain Services", "2. Domain Services", "{0B4914DF-7973-4E98-90AA-730A598891EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DAL", "3. DAL", "{0F30380B-D4AE-4845-80B1-509952484737}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Tests", "4. Tests", "{1C9AEAAA-2BAC-4C86-AB51-F884AFFA17B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShBarcelona.Services", "ShBarcelona.Services\ShBarcelona.Services.csproj", "{9C677E61-437D-4685-AEC3-CEF4029CD4AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShBarcelona.API", "ShBarcelona.API\ShBarcelona.API.csproj", "{CBF57D87-3C8E-4D29-9F71-2113EF9D8499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShBarcelona.DAL", "ShBarcelona.DAL\ShBarcelona.DAL.csproj", "{C5BB82B5-9731-40C3-BA4A-0E3552EEEB24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C677E61-437D-4685-AEC3-CEF4029CD4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C677E61-437D-4685-AEC3-CEF4029CD4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C677E61-437D-4685-AEC3-CEF4029CD4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C677E61-437D-4685-AEC3-CEF4029CD4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF57D87-3C8E-4D29-9F71-2113EF9D8499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF57D87-3C8E-4D29-9F71-2113EF9D8499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF57D87-3C8E-4D29-9F71-2113EF9D8499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF57D87-3C8E-4D29-9F71-2113EF9D8499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5BB82B5-9731-40C3-BA4A-0E3552EEEB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BB82B5-9731-40C3-BA4A-0E3552EEEB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BB82B5-9731-40C3-BA4A-0E3552EEEB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BB82B5-9731-40C3-BA4A-0E3552EEEB24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C677E61-437D-4685-AEC3-CEF4029CD4AA} = {0B4914DF-7973-4E98-90AA-730A598891EE}
+		{CBF57D87-3C8E-4D29-9F71-2113EF9D8499} = {127BB8CB-F7A3-42C1-9AE9-E59760B20F5A}
+		{C5BB82B5-9731-40C3-BA4A-0E3552EEEB24} = {0F30380B-D4AE-4845-80B1-509952484737}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82FCA940-1F06-4D92-A3A0-7724FCBC9C47}
+	EndGlobalSection
+EndGlobal
