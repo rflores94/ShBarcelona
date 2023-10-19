@@ -1,4 +1,13 @@
 {
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:13240",
+      "sslPort": 44331
+    }
+  },
   "profiles": {
     "ShBarcelona.API": {
       "commandName": "Project",
@@ -23,31 +32,11 @@
         "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
         "environmentVariables": {
           "ASPNETCORE_URLS": "https://+:443;http://+:80",
-          "ASPNETCORE_ENVIRONMENT": "Development",
-          "SOSECRET": "Jcg0987.",
-          "AZURESECRET": "ucF7Q~cZVAEUpRep8QtlF-kIsbybBvE6~dUlP",
-          "PEOPLETOKENSECRET": "THIS IS A SUPER SECRET KEY FOR THE INT ENVIRONMENT OF PEOPLE, SUPER SUPER SECRET, 12384873264327894632 MORE SECRET THAN AN PRISON",
-          "SECRETPUBLICAPI": ",#;'KvqQ5}^@::qYf!&P$ZJ}P9<6p;-=a_G",
-          //"SHAREPOINTSECRET": "reL8Q~YoqJOTqIPQeO41~64MAoVuGWuDtetewaYY",
-          "LDAPCONCATELHOST": "172.28.0.150",
-          "LDAPACCESHOST": "192.168.29.19",
-          "LDAPHOSTPORT": "389",
-          "LDAPUSER": "adconsultor",
-          "LDAPPASSWORD": "Duki@2019",
-          "ENCRYPTIONPROVIDER": "J@NcRfUjXn2r5u8x/A?D(G+KbPdSgVkY",
-          "DEVACCESS": "BqgNJdrIZnS5ckjPRQ3n/IfwIpyyZciedDghpH5tAbSQerUBwd9lSf8e7zNCuamobuiMpC4BgNPvAKvgFe0Sww=="
+          "ASPNETCORE_ENVIRONMENT": "Development"
         },
         "publishAllPorts": true,
         "useSSL": true
       }
-    },
-  "$schema": "https://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:51695",
-      "sslPort": 44325
     }
   }
 }

@@ -36,7 +36,7 @@ namespace ShBarcelona.Services.Area
             AreaEntity entity = _mapper.Map<AreaEntity>(areaDto);
 
             await _shBarcelonaContext.AddAsync(entity);
-            await _sh.SaveChangesAsync();
+            await _shBarcelonaContext.SaveChangesAsync();
 
             return _mapper.Map<AreaDto>(entity);
         }
